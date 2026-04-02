@@ -12,36 +12,91 @@
     <nav class="navbar">
         <div class="logo">Rushdi<span>Mustafa</span></div>
         <ul class="nav-links">
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/dash.html">Dashboard</a></li>
-            <li><a href="/certi.html">Certificates</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="experiance.html">Experience</a></li>
+            <li><a href="certi.html">Certificates</a></li>
+            <li>
+                <a href="dash.html">Dashboard</a>
+            </li>
+            <li>
+                <a href="RUSHDI MUSTAFA YOUSIF ADAM.pdf" target="_blank">View CV</a>
+            </li>
         </ul>
     </nav>
-    <section id="dashboard" class="container">
-        <h2 class="section-title">Professional Dashboard</h2>
-        <div class="dashboard-grid">
-            <div class="dash-card">
-                <i class="fas fa-graduation-cap"></i>
-                <h3>Education</h3>
-                <p>Secondary School Graduate (2022) with a **Grade of 74.3** [1]. Currently enrolled in two
-                    international degree programs [1].</p>
+<!-- Dashboard Section -->
+<section id="dashboard" class="container">
+    <h2 class="section-title">Professional Dashboard</h2>
+    <!-- International Education Card -->
+    <div class="dash-card">
+        <i class="fas fa-university"></i>
+        <h3>Global Education</h3>
+        <p><strong>Al-Zaiem Al-Azhari University</strong></p>
+        <p><small>Sudan (On-Campus)</small></p>
+        <p><strong>B.Sc. in Information Systems</strong></p>
+        <p><strong>Monarch Business School</strong></p>
+        <p><small>Switzerland (Remote/Hybrid)</small></p>
+        <div class="stat-item">
+            <span class="stat-label">Bachelors in Business Administration</span>
+            <div class="skill-bar">
+                <div class="skill-fill" style="width: 45%;"></div>
+            </div> 
+            <!-- Adjust width based on progress -->
+        </div>
+
+        <p><small>Focus: Organizational Leadership & Strategic Management</small></p>
+    </div>
+
+    <div class="dashboard-grid">
+
+        <!-- Technical Skill Stats -->
+        <div class="dash-card">
+            <i class="fas fa-code"></i>
+            <h3>Tech Stack</h3>
+            <ul class="dash-list">
+                <li><strong>Frontend:</strong> React, JavaScript (ES6+), HTML5/CSS3</li>
+                <li><strong>Backend:</strong> Node.js, Express, MongoDB</li>
+                <li><strong>Other:</strong> C++, Java, Git/GitHub</li>
+            </ul>
+        </div>
+
+        <!-- Project Highlights -->
+        <div class="dash-card">
+            <i class="fas fa-rocket"></i>
+            <h3>Live Projects</h3>
+            <div class="stat-item">
+                <span class="stat-number">4+</span>
+                <span class="stat-label">Production Ready Projects</span>
             </div>
-            <div class="dash-card">
-                <i class="fas fa-code"></i>
-                <h3>Technical Skills</h3>
-                <p>Expertise in **JavaScript**, **Cyber Security (ICDL)**, and **Computer Essentials** (Ms. Word, Excel,
-                    Access, Publisher) [1, 2].</p>
-            </div>
-            <div class="dash-card">
-                <i class="fas fa-hand-holding-heart"></i>
-                <h3>Specializations</h3>
-                <p>Trained in **Mental Health**, **Solar & Electricity Installation**, and **Business Skills Basics**
-                    [2].</p>
+            <p><small>Including: Karibu Groceries (RBAC), Portfolio, & Team Websites</small></p>
+        </div>
+
+        <!-- Languages & Communication -->
+        <div class="dash-card">
+            <i class="fas fa-globe"></i>
+            <h3>Bilingual Expertise</h3>
+            <div class="skill-bar-container">
+                <p>Arabic (Native/Fluent)</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 100%;"></div>
+                </div>
+                <p>English (Professional)</p>
+                <div class="skill-bar">
+                    <div class="skill-fill" style="width: 90%;"></div>
+                </div>
             </div>
         </div>
-    </section>
-<script src="/index.js"></script>
 
+        <!-- Humanitarian Impact -->
+        <div class="dash-card">
+            <i class="fas fa-hand-holding-heart"></i>
+            <h3>Field Experience</h3>
+            <p><strong>UNHCR & LWF</strong> Facilitator</p>
+            <p><small>1+ Year of Field Operations, Data Collection, & Professional Translation</small></p>
+        </div>
+
+    </div>
+</section>
+<script src="index.js"></script>
 </body>
