@@ -4,7 +4,7 @@ view live https://rushdimustafayousifadam.netlify.app/
 
 A professional portfolio website showcasing my journey as a full-stack developer, my technical expertise, and my humanitarian experience with organizations like UNHCR and LWF.
 
-**🔗 [Live Demo Link Coming Soon]**
+
 
 ## 🚀 Overview
 This project serves as my digital resume and hub for my software engineering projects. It is designed to be high-performance, fully responsive, and visually modern using a "glassmorphism" aesthetic.
