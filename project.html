@@ -189,17 +189,30 @@
             border-top: 1px solid var(--glass-border);
         }
 
-        @media (max-width: 768px) {
-            .page-header h1 {
-                font-size: 2.2rem;
-            }
+       @media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack logo and menu */
+        gap: 15px;
+        padding: 15px 5%;
+    }
 
-            .nav-links {
-                display: none;
-            }
+    .nav-links {
+        display: flex; /* Change from 'none' to 'flex' */
+        flex-wrap: wrap; /* Let links wrap to a second line if they are long */
+        justify-content: center;
+        gap: 10px;
+        font-size: 0.9rem;
+    }
 
-            /* Hide nav on mobile for simplicity */
-        }
+    .nav-links li {
+        margin: 0; /* Remove the desktop margins */
+    }
+
+    .page-header h1 {
+        font-size: 2.2rem;
+    }
+}
+
     </style>
 </head>
 
